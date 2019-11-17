@@ -15,6 +15,32 @@
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
 
+.container {
+  grid-template-columns: repeat(16, 1fr);
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  position: relative;
+  min-height: 640px;
+  background: linear-gradient(120deg, #7c4cb0 0%, #5f86ec 100%); }
+  header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: url("../images/cover.jpg") center no-repeat;
+    background-size: cover;
+    opacity: 0.15; }
+
+.intro {
+  position: relative;
+  z-index: 10;
+  color: #fff; }
+
 .current {
   color: tomato;
   font-weight: bold; }
