@@ -1,0 +1,28 @@
+collections:
+  works:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "works"
+    values:
+      layout: "work"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+keep_files:
+  - images
+  - css
+
+exclude:
+  - gulpfile.js
+  - package.json
+  - package-lock.json

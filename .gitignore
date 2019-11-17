@@ -1,0 +1,13 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+Gemfile.lock
+package-lock.json
+
+# NPM
+node_modules/
+
+# MacOS
+*.DS_Store
