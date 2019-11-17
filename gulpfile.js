@@ -30,7 +30,8 @@ function styles() {
       })
     )
     .pipe(gulp.dest("_site/assets/css/"))
-    .pipe(browserSync.reload({ stream: true }));
+    .pipe(browserSync.reload({ stream: true }))
+    .pipe(gulp.dest("assets/css"));
 }
 
 function stylesProd() {
