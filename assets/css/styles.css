@@ -8,9 +8,8 @@ body {
 
 header {
   position: relative;
-  min-height: 640px;
-  background: linear-gradient(120deg, #7c4cb0 0%, #5f86ec 100%);
-  padding: 20px; }
+  background: linear-gradient(120deg, #2b0096 0%, #e9649b 100%);
+  padding: 0 20px; }
   header:before {
     content: "";
     position: absolute;
@@ -23,17 +22,31 @@ header {
     background-size: cover;
     opacity: 0.15; }
 
+nav {
+  position: relative;
+  z-index: 10;
+  padding: 30px 0; }
+
+@media (min-width: 540px) {
+  nav {
+    padding: 40px 0; } }
+
 .intro {
   position: relative;
   z-index: 10;
   color: #fff;
-  padding-top: 50px;
-  padding-bottom: 100px; }
+  padding-top: 30px;
+  padding-bottom: 150px; }
   .intro h1,
   .intro h2 {
     font-weight: 400; }
   .intro .intro-text {
     max-width: 720px; }
+
+@media (min-width: 540px) {
+  .intro {
+    padding-top: 60px;
+    padding-bottom: 180px; } }
 
 .current {
   color: tomato;
@@ -86,9 +99,11 @@ h3 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.4rem; }
+    font-size: 2.4rem;
+    line-height: 1.35; }
   h2 {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem;
+    line-height: 1.4; } }
 
 main {
   display: block; }
