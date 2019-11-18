@@ -12,6 +12,11 @@ body {
   margin: 0 auto;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   position: relative;
   background: linear-gradient(120deg, #2b0096 0%, #e9649b 100%);

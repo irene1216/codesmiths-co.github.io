@@ -1,13 +1,42 @@
 <div class="contact">
   <div class="contact-left">
     <h2>
-      Let's talk about your business
+      Let's talk about your
+    </h2>
+    <h2 id="closerh2">
+      <b>new business</b>
     </h2>
     <p>
-
+      We would love to hear from you. Drop us a message so we can learn more about you and your needs.
     </p>
   </div>
   <div class="contact-right">
-
+    <form id="myform">
+      <div class="form-top">
+        <div class="form-top-left">
+          <label>Your Name</label>
+          <input type="text" name="from_name" required="required">
+        </div>
+        <div class="form-top-right">
+          <label>Your Email</label>
+          <input type="text" name="reply_to" required="required">
+        </div>
+      </div>
+      <div class="form-bottom">
+        <label>Your Message</label>
+        <textarea name="message_html" form="myform"required="required"></textarea>
+        <button>
+          Send
+        </button>
+      </div>
+    </form>
+      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="/assets/js/mail.js" ></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init("user_X42RrfYvEL1Z2B8nBHiFm");
+         })();
+      </script>
   </div>
 </div>
