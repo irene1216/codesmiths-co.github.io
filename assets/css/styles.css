@@ -1,3 +1,61 @@
+.service {
+  background: #1d2731;
+  height: 528px;
+  color: white;
+  display: flex;
+  font-size: 16px; }
+  .service h2 {
+    font-weight: 400; }
+  .service .service-left {
+    background-image: url("/assets/images/service-left.jpg");
+    width: 100%; }
+
+.service-tagline {
+  font-size: 24px;
+  padding-left: 32px;
+  padding-top: 80px;
+  padding-right: 168px; }
+  .service-tagline .tagline-last {
+    padding-top: 15px;
+    padding-bottom: 0px; }
+
+.service-list {
+  display: flex; }
+
+.design-list,
+.dev-list {
+  list-style: none; }
+
+.list-header {
+  font-weight: bold;
+  font-size: 12px; }
+
+@media (max-width: 540px) {
+  .service {
+    height: 859px;
+    flex-direction: column;
+    font-size: 18px; }
+    .service .service-tagline {
+      padding: 20px; }
+    .service .service-left {
+      width: 375px;
+      height: 286px;
+      background-size: cover; }
+    .service .service-list {
+      flex-direction: column;
+      padding-left: -18px;
+      margin-left: -18px;
+      font-size: 16px; }
+      .service .service-list .design-list {
+        margin-top: 0px; }
+      .service .service-list .list-header {
+        font-size: 13px; } }
+
+.contact {
+  display: flex; }
+  .contact h2 {
+    font-weight: 400; }
+
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
 
