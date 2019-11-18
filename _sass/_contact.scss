@@ -97,7 +97,6 @@
   .contact {
     h2 {
       font-size: 20px;
-      margin-bottom: 0px;
     }
 
     flex-direction: column;
@@ -112,7 +111,8 @@
 
 
       input {
-        width: 333px;
+        width: 335px;
+        margin-right: 0px;
       }
 
       .form-top {
@@ -121,7 +121,7 @@
 
       .form-bottom {
         textarea {
-          width: 333px;
+          width: 335px;
         }
       }
     }

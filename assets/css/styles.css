@@ -120,19 +120,19 @@
   .contact {
     flex-direction: column; }
     .contact h2 {
-      font-size: 20px;
-      margin-bottom: 0px; }
+      font-size: 20px; }
     .contact .contact-left {
       padding: 20px;
       width: 337px; }
     .contact .contact-right {
       padding-top: 0px; }
       .contact .contact-right input {
-        width: 333px; }
+        width: 335px;
+        margin-right: 0px; }
       .contact .contact-right .form-top {
         flex-direction: column; }
       .contact .contact-right .form-bottom textarea {
-        width: 333px; } }
+        width: 335px; } }
 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
