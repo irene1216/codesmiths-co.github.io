@@ -100,6 +100,7 @@
         width: 738px;
         height: 200px;
         font-size: 16px;
+        resize: none;
         color: #495057;
         padding: 15px;
         padding-left: 16px; }
@@ -118,21 +119,69 @@
 
 @media (max-width: 540px) {
   .contact {
+    height: 830px;
     flex-direction: column; }
     .contact h2 {
       font-size: 20px; }
     .contact .contact-left {
       padding: 20px;
-      width: 337px; }
+      width: 335px; }
     .contact .contact-right {
-      padding-top: 0px; }
+      padding-top: 0px;
+      padding-right: 0px; }
       .contact .contact-right input {
         width: 335px;
         margin-right: 0px; }
       .contact .contact-right .form-top {
         flex-direction: column; }
       .contact .contact-right .form-bottom textarea {
+        width: 335px; }
+      .contact .contact-right .form-bottom button {
+        margin-right: 0px;
+        margin-top: 30px;
         width: 335px; } }
+
+.footer-bottom {
+  display: flex;
+  color: white;
+  background: #1D2731;
+  height: 88px; }
+  .footer-bottom .logo {
+    padding-left: 120px;
+    font-weight: 800; }
+  .footer-bottom .copyright {
+    margin-left: auto;
+    opacity: 0.5; }
+  .footer-bottom .copyright,
+  .footer-bottom .email {
+    padding-top: 3.8px;
+    font-size: 12px; }
+  .footer-bottom p, .footer-bottom a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white; }
+  .footer-bottom * {
+    margin-top: 32px;
+    margin-bottom: 32px; }
+
+@media (max-width: 540px) {
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    height: 132px; }
+    .footer-bottom * {
+      padding: 0px;
+      margin: 0px; }
+    .footer-bottom p, .footer-bottom a {
+      text-align: center; }
+    .footer-bottom .logo {
+      padding-left: 0px;
+      margin-right: 0px; }
+    .footer-bottom .email {
+      padding-bottom: 30px;
+      margin-right: 0px; }
+    .footer-bottom .copyright {
+      margin: 0px; } }
 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
